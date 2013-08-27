@@ -5,8 +5,8 @@
         <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
           <td>
             <%= image_tag(product.image_url, :class => 'list_image') %>
-          </td>
           
+          </td>
           <td class="list_description">
           <dl>
             <dt><%= product.title %></dt>
@@ -24,5 +24,4 @@
     </table>
 </div>
 <br />
-
 <%= link_to 'New product', new_product_path %>

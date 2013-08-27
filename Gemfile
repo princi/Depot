@@ -35,4 +35,5 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+gem "paperclip", :git => "http://github.com/thoughtbot/paperclip.git"
